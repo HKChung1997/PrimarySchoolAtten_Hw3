@@ -1,4 +1,4 @@
-package com.example.chung.primaryschoolattenhw;
+package com.example.chung.primaryschoolattenhw.Fragment;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -7,15 +7,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.chung.primaryschoolattenhw.R;
+
 /**
  * Created by Chung on 2/3/2017.
  */
-public class ThirdFragment extends Fragment{
+public class newsFragment extends Fragment{
     View myView;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        myView = inflater.inflate(R.layout.activity_forget, container, false);
+        myView = inflater.inflate(R.layout.news, container, false);
         return myView;
 
     }
